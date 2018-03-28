@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.insystem.insystem.Home.HomeActivity">
+
+    <!-- layout dasar dan bottom navigation digabung -->
+    <RelativeLayout
+        android:id="@+id/activityHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_center_viewpager" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <include layout="@layout/layout_top_survey" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/harry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bottom_tawar" />
+
+        <ImageView
+            android:id="@+id/blenderTawar"
+            android:layout_width="120dp"
+            android:layout_height="27dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_blender_400" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

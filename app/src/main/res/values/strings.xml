@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">INSystem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pass_hint">Password..</string>
+    <string name="email_hint">Your Email..</string>
+    <string name="login_logo_ins">Logo Login Page</string>
+    <string name="login_btn_text">Login</string>
+    <string name="log_reg_btn_text">Create New Account</string>
+    <string name="three_menu">ProfileThreeMenu</string>
+    <string name="three_menu_draw">ThreeMenuDraw</string>
+    <string name="dot_image">dotImage</string>
+    <string name="strDes_Content">valueRegLogo</string>
+    <string name="strConfirm_Password">Confirm Password..</string>
+    <string name="strReg_Button">Register</string>
+    <string name="strPunya_Akun">Sudah Punya Akun</string>
+    <string name="strPasswordBaru_EditText">Password Baru..</string>
+</resources>
