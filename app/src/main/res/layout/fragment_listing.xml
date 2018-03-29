@@ -15,9 +15,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include layout="@layout/layout_top_tabs" />
-
+            <include layout="@layout/layout_top_bar" />
         </RelativeLayout>
+        ==
+
+        <ImageButton
+            android:id="@+id/idImageInputListing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="370dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/str_image_input_listing"
+            android:src="@drawable/ic_input" />
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,8 +40,6 @@
             android:text="Listing"
             android:textColor="@color/black"
             android:textSize="20dp" />
-
     </RelativeLayout>
-
 
 </android.support.design.widget.CoordinatorLayout>

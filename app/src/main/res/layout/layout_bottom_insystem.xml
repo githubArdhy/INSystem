@@ -7,12 +7,10 @@
         android:layout_alignParentBottom="true">
 
         <android.support.design.widget.BottomNavigationView
-            android:id="@+id/navigationTawar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/white_grey_border_top"
-            app:menu="@menu/bottom_navigation_tawar">
-
+            app:menu="@menu/bottom_navigation_insystem">
         </android.support.design.widget.BottomNavigationView>
 
     </RelativeLayout>

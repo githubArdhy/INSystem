@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="43dp"
+        android:layout_height="53dp"
         android:layout_alignParentTop="true">
 
         <android.support.design.widget.AppBarLayout
@@ -11,10 +10,12 @@
             android:layout_height="wrap_content">
 
             <android.support.design.widget.TabLayout
-                android:id="@+id/LayoutTopInfoInput"
+                android:id="@+id/LayoutTopTabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/black"></android.support.design.widget.TabLayout>
+                android:background="@drawable/white_grey_border_bottom">
+
+            </android.support.design.widget.TabLayout>
 
         </android.support.design.widget.AppBarLayout>
 

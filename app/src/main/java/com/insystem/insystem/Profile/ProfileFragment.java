@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
+import com.insystem.insystem.Activity.SettingActivity;
 import com.insystem.insystem.R;
-import com.insystem.insystem.SettingActivity;
 
 /**
  * A simple {@link Fragment} subclass.

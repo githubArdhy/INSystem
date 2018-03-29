@@ -1,4 +1,4 @@
-package com.insystem.insystem;
+package com.insystem.insystem.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.insystem.insystem.Home.HomeActivity;
+import com.insystem.insystem.MainActivity;
+import com.insystem.insystem.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -72,6 +73,13 @@ public class RegisterActivity extends AppCompatActivity {
                 }
             }
         });
+
+        reg_login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override
@@ -85,7 +93,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void sendToMain() {
-        Intent mainIntent = new Intent(RegisterActivity.this, HomeActivity.class);
+        Intent mainIntent = new Intent(RegisterActivity.this, MainActivity.class);
         startActivity(mainIntent);
         finish();
     }

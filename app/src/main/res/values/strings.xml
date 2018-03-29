@@ -16,4 +16,5 @@
     <string name="strReg_Button">Register</string>
     <string name="strPunya_Akun">Sudah Punya Akun</string>
     <string name="strPasswordBaru_EditText">Password Baru..</string>
+    <string name="str_image_input_listing">Register</string>
 </resources>

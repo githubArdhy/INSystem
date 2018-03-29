@@ -2,7 +2,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="39dp"
         android:layout_alignParentTop="true">
 
         <android.support.design.widget.AppBarLayout

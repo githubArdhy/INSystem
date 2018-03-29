@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.insystem.insystem.Home.HomeActivity">
+    tools:context="com.insystem.insystem.MainActivity">
 
     <!-- layout dasar dan bottom navigation digabung -->
     <RelativeLayout
@@ -26,7 +26,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="40dp">
 
-        <include layout="@layout/layout_top_survey" />
+        <include layout="@layout/layout_bottom_viewpager_menu" />
 
     </RelativeLayout>
 
@@ -35,10 +35,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <include layout="@layout/layout_bottom_tawar" />
+        <include layout="@layout/layout_bottom_insystem" />
 
         <ImageView
-            android:id="@+id/blenderTawar"
+            android:id="@+id/blenderINSystem"
             android:layout_width="120dp"
             android:layout_height="27dp"
             android:layout_alignParentBottom="true"
