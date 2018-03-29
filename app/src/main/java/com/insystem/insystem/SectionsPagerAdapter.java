@@ -1,4 +1,4 @@
-package com.insystem.insystem.Buyer;
+package com.insystem.insystem;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

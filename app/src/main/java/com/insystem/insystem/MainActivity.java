@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.insystem.insystem.Activity.LoginActivity;
 import com.insystem.insystem.Buyer.BuyerFragment;
-import com.insystem.insystem.Buyer.SectionsPagerAdapter;
 import com.insystem.insystem.Home.FragmentHome;
 import com.insystem.insystem.Listing.ListingFragment;
 import com.insystem.insystem.Profile.ProfileFragment;
